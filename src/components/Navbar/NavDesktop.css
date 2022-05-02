@@ -1,0 +1,24 @@
+.navDesktop {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        padding: 1rem 0;
+        background-color: rgba(0, 0, 0, 0.877);
+    }
+.navDesktop img{
+        min-height: 5rem;
+    }
+.navDesktop a{
+        margin-right: 1.5rem;
+        font-size: 20px;
+        color: white;
+    }
+.navDesktop a:hover{
+        color: rgba(255, 255, 255, 0.726);
+    }
+    .d-flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }

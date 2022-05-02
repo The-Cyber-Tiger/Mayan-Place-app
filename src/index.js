@@ -2,11 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import { BrowserRouter as Router, Route, Routes} from "react-router-dom"
+
 import reportWebVitals from './reportWebVitals';
+import Place from './components/Place/Place';
+import Contact from './pages/Contact/contact';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Routes>
+        <Route path='/' element={<App/>}/>
+        <Route path='/places' element={<App/>}/>
+        <Route path='/about' element={<App/>}/>
+        <Route path='/agents' element={<App/>}/>
+        <Route path='/contact' element={<Contact/>}/>
+        <Route path='/place' element={<Place/>}/>
+      </Routes>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

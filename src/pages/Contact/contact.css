@@ -1,0 +1,73 @@
+.double_line{
+    width: 100%;
+    border-top: 2px solid black;
+    height: 10px;
+    border-bottom: 2px solid black;
+}
+.head_magic{
+    margin-top: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.category h4{
+    font-size: 28px;
+}
+.place_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.place_title h2{
+    font-size: 32px;
+}
+.main_{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main_ h1{
+    margin-bottom: .5rem;
+    font-size: 24px;
+}
+.main_ p{
+    font-size: 16px;
+    margin-bottom: 2rem;
+}
+.main_ a{
+    text-decoration: none;
+}
+.git_btn{
+    width: 140px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: .5rem;
+}
+.git_btn p{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+}
+@media (max-width: 700px) {
+    .place_title h2{
+        font-size: 28px;
+    }
+    .category h4{
+        font-size: 18px;
+    }
+}

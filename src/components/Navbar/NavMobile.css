@@ -1,0 +1,40 @@
+@media (max-width: 700px){
+    .navMobile{
+        background-color: black;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        min-height: 50px;
+        position: fixed;
+        z-index: 999;
+        height: auto;
+        padding: 1rem .5rem;
+    }
+    .navMobile img{
+        max-width: 200px;
+        max-height: 60px;
+    }
+    .burguer_menu button{
+        cursor: pointer;
+        background-color: black;
+        border: none;
+    }
+    .menu-options{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        background-color: black;
+        color: white;
+    }
+    .menu-options:active{
+        background-color: rgb(179, 255, 255);
+    }
+    .menu-options a{
+        color: white;
+        text-decoration: none;
+    }
+}

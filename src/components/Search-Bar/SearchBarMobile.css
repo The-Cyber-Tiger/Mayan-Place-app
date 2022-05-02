@@ -1,0 +1,6 @@
+.house_search_mob{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

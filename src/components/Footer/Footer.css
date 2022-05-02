@@ -1,0 +1,31 @@
+footer{
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+    background-color: black;
+    position: relative;
+    height: auto;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+h3{
+    margin-top: 1rem;
+    font-size: 18px;
+    font-weight: normal;
+}
+.social_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social_icons svg{
+    margin: 0 1rem;
+}
+.dev_by{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dev_by svg{
+    margin: 0 .5rem;
+}

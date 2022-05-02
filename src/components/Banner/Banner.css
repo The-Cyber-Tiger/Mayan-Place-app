@@ -1,0 +1,68 @@
+
+.banner{
+    width: 100%;
+    min-height: 25vh;
+    background-image: url(https://images.unsplash.com/photo-1605216663980-b7ca6e9f2451?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1407&q=80);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.b_testimonial{
+    text-align: right;
+    font-size: 18px;
+}
+.b_testimonial h4{
+    font-size: 28px;
+    font-weight: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.74);
+
+}
+.b_info{
+    display: flex;
+}
+.b_contact{
+    align-items: center;
+}
+.b_contact h3{
+    font-size: 34px;
+}
+.b_contact button{
+    height: 35px;
+    width: 150px;
+    border-radius: 16px;
+    border: none;
+    background-color: #978EFF;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: none;
+    color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.74);
+}
+.b_contact button:hover{
+    opacity: .95;
+}
+
+@media (max-width: 700px) {
+    .banner{
+        padding: 2rem 0;
+        flex-direction: column;
+    }
+    .b_testimonial{
+        text-align: right;
+        font-size: 14px;
+    }
+    .b_info{
+        padding: 2rem 0;
+    }
+    .b_testimonial h4{
+        font-size: 24px;
+    }
+    .b_contact h3{
+        font-size: 28px;
+    }
+}
