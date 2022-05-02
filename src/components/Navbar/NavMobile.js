@@ -14,10 +14,10 @@ function NavMobile(){
     const MenuOptions = () =>{
         return(
             <div className="menu-options">
-                <Link  to='/'>Agents</Link>
-                <Link  to='/'>Contact</Link>
-                <Link  to='/'>Places</Link>
-                <Link  to='/'>About Us</Link>
+                <Link  to='/contact'>Agents</Link>
+                <Link  to='/contact'>Contact</Link>
+                <Link  to='/contact'>Places</Link>
+                <Link  to='/contact'>About Us</Link>
             </div>
         )
     }
